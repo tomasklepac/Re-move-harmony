@@ -22,10 +22,22 @@ include 'includes/header.php';
             </p>
 
             <div class="contact-actions">
-                <a href="tel:+420732912705" class="contact-btn">+420 732 912 705</a>
-                <a href="mailto:info@re-moveharmony.cz" class="contact-btn">info@re-moveharmony.cz</a>
-                <a href="https://www.instagram.com/re_move_harmony/" target="_blank" class="contact-btn" rel="noopener">Instagram</a>
-                <a href="https://www.reservio.cz/b/re-move-harmony" target="_blank" class="contact-btn" rel="noopener">Rezervace přes Reservio</a>
+                <a href="tel:+420732912705" class="contact-btn">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.62 10.79a15.72 15.72 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24 12.35 12.35 0 003.87.62 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.44a1 1 0 011 1 12.35 12.35 0 00.62 3.87 1 1 0 01-.24 1.01z"/></svg>
+                    +420 732 912 705
+                </a>
+                <a href="mailto:info@re-moveharmony.cz" class="contact-btn">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16a2 2 0 012 2v10a2 2 0 01-2 2H4a2 2 0 01-2-2V7a2 2 0 012-2zm0 2v.2l8 5 8-5V7H4zm16 10V9.8l-7.4 4.62a1 1 0 01-1.2 0L4 9.8V17h16z"/></svg>
+                    info@re-moveharmony.cz
+                </a>
+                <a href="https://www.instagram.com/re_move_harmony/" target="_blank" class="contact-btn" rel="noopener">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4c-1.65 0-3 1.35-3 3v10c0 1.65 1.35 3 3 3h10c1.65 0 3-1.35 3-3V7c0-1.65-1.35-3-3-3H7zm0-2h10a5 5 0 015 5v10a5 5 0 01-5 5H7a5 5 0 01-5-5V7a5 5 0 015-5zm5 6a5 5 0 110 10 5 5 0 010-10zm0 2a3 3 0 100 6 3 3 0 000-6zm5.25-3.5a1 1 0 110 2 1 1 0 010-2z"/></svg>
+                    Instagram
+                </a>
+                <a href="https://www.reservio.cz/b/re-move-harmony" target="_blank" class="contact-btn" rel="noopener">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3a1 1 0 011 1v1h8V4a1 1 0 112 0v1h1a2 2 0 012 2v11a2 2 0 01-2 2H4a2 2 0 01-2-2V7a2 2 0 012-2h1V4a1 1 0 011-1zm12 6H5v9h14zm-3 3v2h-4v-2z"/></svg>
+                    Rezervace přes Reservio
+                </a>
             </div>
 
             <div class="contact-extra">

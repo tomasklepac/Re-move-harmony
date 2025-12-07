@@ -334,11 +334,13 @@ a {
 }
 
 .section-about .image img {
-    width: 100%;
-    max-width: 520px;
+    width: auto;
+    height: auto;
+    max-width: 420px;
+    max-height: 340px;
     border-radius: 26px;
     box-shadow: var(--shadow-soft);
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .section-about.alt-left {
@@ -628,6 +630,11 @@ a {
 
 .contact-btn i {
     font-size: 1.1rem;
+}
+.contact-btn svg {
+    width: 18px;
+    height: 18px;
+    fill: currentColor;
 }
 
 .contact-extra {

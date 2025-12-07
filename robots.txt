@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://removeharmony.cz/sitemap.xml
+Sitemap: https://re-moveharmony.cz/sitemap.xml

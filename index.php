@@ -1,6 +1,6 @@
 <?php
-$pageTitle = 'Re-Move Harmony | Masáže, relaxační a pohybová terapie Plzeň';
-$pageDescription = 'Masáže, relaxační a pohybová terapie. Pomůžeme vám vrátit tělu i mysli lehkost a klid.';
+$pageTitle = 'Re-Move Harmony | Masáže, relaxační a pohybové terapie Plzeň';
+$pageDescription = 'Masáže, relaxační a pohybové terapie. Pomůžeme vám vrátit tělu i mysli lehkost a klid.';
 $ogImage = 'assets/img/hero/interier_2.jpeg';
 include 'includes/header.php';
 ?>
@@ -9,9 +9,9 @@ include 'includes/header.php';
     <img class="hero-media" src="assets/img/hero/interier_1.jpeg" alt="" width="1600" height="1066" loading="eager" decoding="async" fetchpriority="high">
     <div class="hero-overlay"></div>
     <div class="hero-content">
-        <p class="eyebrow">Plzeň • Tylova 68</p>
+        <p class="eyebrow">Plzeň · Tylova 68</p>
         <h1>Re-Move Harmony</h1>
-        <p>Masáže, relaxační a pohybová terapie. Pomůžeme vám vrátit tělu i mysli lehkost a klid.</p>
+        <p>Masáže, relaxační a pohybové terapie. Pomůžeme vám vrátit tělu i mysli lehkost a klid.</p>
         <div class="hero-actions">
             <a href="https://www.reservio.cz/b/re-move-harmony" class="btn-primary" target="_blank" rel="noopener">Rezervovat termín</a>
             <a href="contact.php" class="btn-outline">Kontakt</a>
@@ -81,8 +81,8 @@ include 'includes/header.php';
         <div class="team-grid">
             <div class="team-member">
                 <a href="team.php#max">
-                    <img src="assets/img/gallery/Maxmilian_Hostalek_opt.jpg" alt="Portrét maséra Maxmiliána Hošťálka" width="1200" height="1600" loading="lazy" decoding="async">
-                    <h3>Maxmilián Hošťálek</h3>
+                    <img src="assets/img/gallery/Maxmilian_Hostalek_opt.jpg" alt="Portrét maséra Maxmiliána Hořálka" width="1200" height="1600" loading="lazy" decoding="async">
+                    <h3>Maxmilián Hořálek</h3>
                 </a>
             </div>
             <div class="team-member">

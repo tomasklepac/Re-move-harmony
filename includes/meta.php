@@ -5,8 +5,8 @@ function rh_esc($value): string
     return htmlspecialchars($value ?? '', ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8');
 }
 
-$defaultTitle = 'Re-Move Harmony | Masáže, relaxační a pohybová terapie Plzeň';
-$defaultDescription = 'Re-Move Harmony - masáže, relaxační a pohybová terapie v Plzni. Pomůžeme vám vrátit tělu i mysli lehkost a rovnováhu.';
+$defaultTitle = 'Re-Move Harmony | Masáže, relaxační a pohybové terapie Plzeň';
+$defaultDescription = 'Re-Move Harmony - masáže, relaxační a pohybové terapie v Plzni. Pomůžeme vám vrátit tělu i mysli lehkost a rovnováhu.';
 
 $scheme = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? 'https' : 'http';
 $host = $_SERVER['HTTP_HOST'] ?? 'localhost';
@@ -14,6 +14,11 @@ $baseUrl = $baseUrl ?? ($scheme . '://' . $host);
 $scriptDir = rtrim(dirname($_SERVER['SCRIPT_NAME'] ?? ''), '/\\');
 $pathPrefix = ($scriptDir === '' || $scriptDir === '/') ? '' : ltrim($scriptDir, '/');
 $assetPrefix = $pathPrefix === '' ? '' : $pathPrefix . '/';
+$assetRoot = rtrim($baseUrl, '/') . '/' . $assetPrefix;
+$faviconIco = $assetRoot . 'favicon.ico';
+$faviconPng32 = $assetRoot . 'assets/img/logo/favicon-32x32.png';
+$appleTouchIcon = $assetRoot . 'assets/img/logo/apple-touch-icon.png';
+$manifestUrl = $assetRoot . 'site.webmanifest';
 $siteUrl = rtrim($baseUrl . ($pathPrefix === '' ? '' : '/' . $pathPrefix), '/');
 $requestUri = $_SERVER['REQUEST_URI'] ?? '/';
 $currentUrl = $currentUrl ?? ($baseUrl . $requestUri);
@@ -30,7 +35,7 @@ $pageDescription = $pageDescription ?? $defaultDescription;
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="<?php echo rh_esc($pageDescription); ?>">
-<meta name="author" content="Tomáš Klepař">
+<meta name="author" content="Tomáš Klepač">
 <meta name="theme-color" content="#3D7077">
 <meta name="robots" content="index,follow">
 <link rel="canonical" href="<?php echo rh_esc($currentUrlNoQuery); ?>">
@@ -49,10 +54,11 @@ $pageDescription = $pageDescription ?? $defaultDescription;
 <meta name="twitter:description" content="<?php echo rh_esc($pageDescription); ?>">
 <meta name="twitter:image" content="<?php echo rh_esc($ogImage); ?>">
 
-<link rel="icon" type="image/png" sizes="32x32" href="<?php echo rh_esc($assetPrefix); ?>assets/img/logo/favicon-32x32.png">
-<link rel="apple-touch-icon" sizes="180x180" href="<?php echo rh_esc($assetPrefix); ?>assets/img/logo/apple-touch-icon.png">
-<link rel="manifest" href="<?php echo rh_esc($assetPrefix); ?>site.webmanifest">
-<link rel="shortcut icon" href="<?php echo rh_esc($assetPrefix); ?>favicon.ico">
+<link rel="icon" type="image/x-icon" sizes="any" href="<?php echo rh_esc($faviconIco); ?>">
+<link rel="icon" type="image/png" sizes="32x32" href="<?php echo rh_esc($faviconPng32); ?>">
+<link rel="apple-touch-icon" sizes="180x180" href="<?php echo rh_esc($appleTouchIcon); ?>">
+<link rel="manifest" href="<?php echo rh_esc($manifestUrl); ?>">
+<link rel="shortcut icon" href="<?php echo rh_esc($faviconIco); ?>">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
