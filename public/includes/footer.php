@@ -2,9 +2,9 @@
 <footer class="footer-minimal">
     <div class="container footer-grid">
         <div class="footer-links">
-            <h4>RychlÆc odkazy</h4>
+            <h4>Rychlé odkazy</h4>
             <a href="/reservation.php">Rezervace</a>
-            <a href="/services.php">Slu‘–by</a>
+            <a href="/services.php">Služby</a>
             <a href="/gallery.php">Fotogalerie</a>
             <a href="/contact.php">Kontakt</a>
         </div>
@@ -13,7 +13,7 @@
             <a href="tel:+420732912705">+420 732 912 705</a>
             <a href="mailto:info@re-moveharmony.cz">info@re-moveharmony.cz</a>
             <a href="https://www.instagram.com/re_move_harmony/" target="_blank" rel="noopener">Instagram</a>
-            <p class="legal-note">ZÆósady ochrany osobnÆðch Æ­daj‘½ ƒ?" k dispozici na vy‘–ÆódÆónÆð.</p>
+            <p class="legal-note">Zásady ochrany osobních údajů jsou k dispozici na vyžádání.</p>
         </div>
     </div>
     <div class="footer-bottom">
