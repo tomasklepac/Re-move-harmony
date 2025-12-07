@@ -15,7 +15,7 @@ include 'includes/header.php';
 <section class="team-detail">
     <div class="container">
         <div class="team-member-detail" id="max">
-            <img src="assets/img/gallery/Maxmilian_Hostalek.jpeg" alt="Portrét maséra Maxmiliána Hošťálka" loading="lazy" decoding="async">
+            <img src="assets/img/gallery/Maxmilian_Hostalek_opt.jpg" alt="Portrét maséra Maxmiliána Hošťálka" loading="lazy" decoding="async">
             <div class="info">
                 <h2>Maxmilián Hošťálek</h2>
                 <p class="tagline">Student fyzioterapie • sportovní regenerace a prevence</p>
@@ -28,7 +28,7 @@ include 'includes/header.php';
         </div>
 
         <div class="team-member-detail" id="barbora">
-            <img src="assets/img/gallery/Barbora_Kuttanova.jpeg" alt="Portrét masérky Barbory Kuttanové" loading="lazy" decoding="async">
+            <img src="assets/img/gallery/Barbora_Kuttanova_opt.jpg" alt="Portrét masérky Barbory Kuttanové" loading="lazy" decoding="async">
             <div class="info">
                 <h2>Barbora Kuttanová</h2>
                 <p class="tagline">Masérka a studentka ergoterapie • empatický přístup</p>
@@ -43,3 +43,4 @@ include 'includes/header.php';
 </section>
 
 <?php include 'includes/footer.php'; ?>
+
