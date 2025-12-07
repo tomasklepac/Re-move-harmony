@@ -1,12 +1,12 @@
-    </main>
+﻿    </main>
 <footer class="footer-minimal">
     <div class="container footer-grid">
         <div class="footer-links">
             <h4>Rychlé odkazy</h4>
-            <a href="/reservation.php">Rezervace</a>
-            <a href="/services.php">Služby</a>
-            <a href="/gallery.php">Fotogalerie</a>
-            <a href="/contact.php">Kontakt</a>
+            <a href="reservation.php">Rezervace</a>
+            <a href="services.php">Služby</a>
+            <a href="gallery.php">Fotogalerie</a>
+            <a href="contact.php">Kontakt</a>
         </div>
         <div class="footer-meta">
             <h4>Kontakt</h4>
