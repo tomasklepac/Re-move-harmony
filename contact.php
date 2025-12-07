@@ -1,6 +1,6 @@
 <?php
 $pageTitle = 'Kontakt | Re-Move Harmony';
-$pageDescription = 'Jsme v Plzni na Tylově. Ozvěte se a domluvíme, co potřebujete.';
+$pageDescription = 'Jsme v Plzni na Tylově. Ozvěte se a domluvme, co potřebujete.';
 $ogImage = 'assets/img/gallery/interier_7.jpeg';
 include 'includes/header.php';
 ?>
@@ -8,7 +8,7 @@ include 'includes/header.php';
 <section class="page-hero">
     <div class="container">
         <h1>Kontakt</h1>
-        <p>Jsme v Plzni na Tylově. Ozvěte se a domluvíme, co potřebujete.</p>
+        <p>Jsme v Plzni na Tylově. Ozvěte se a domluvme, co potřebujete.</p>
     </div>
 </section>
 
@@ -22,30 +22,14 @@ include 'includes/header.php';
             </p>
 
             <div class="contact-actions">
-                <a href="tel:+420732912705" class="contact-btn">
-                    <i class="fa-solid fa-phone"></i>
-                    +420 732 912 705
-                </a>
-
-                <a href="mailto:info@re-moveharmony.cz" class="contact-btn">
-                    <i class="fa-solid fa-envelope"></i>
-                    info@re-moveharmony.cz
-                </a>
-
-                <a href="https://www.instagram.com/re_move_harmony/" target="_blank" class="contact-btn" rel="noopener">
-                    <i class="fa-brands fa-instagram"></i>
-                    Instagram
-                </a>
-
-                <a href="https://www.reservio.cz/b/re-move-harmony" target="_blank" class="contact-btn" rel="noopener">
-                    <i class="fa-solid fa-calendar-check"></i>
-                    Rezervace přes Reservio
-                </a>
+                <a href="tel:+420732912705" class="contact-btn">+420 732 912 705</a>
+                <a href="mailto:info@re-moveharmony.cz" class="contact-btn">info@re-moveharmony.cz</a>
+                <a href="https://www.instagram.com/re_move_harmony/" target="_blank" class="contact-btn" rel="noopener">Instagram</a>
+                <a href="https://www.reservio.cz/b/re-move-harmony" target="_blank" class="contact-btn" rel="noopener">Rezervace přes Reservio</a>
             </div>
 
             <div class="contact-extra">
                 <div class="address">
-                    <i class="fa-solid fa-location-dot"></i>
                     <div>
                         <strong>Adresa</strong><br>
                         Tylova 2814/68, Plzeň
@@ -53,7 +37,6 @@ include 'includes/header.php';
                 </div>
 
                 <div class="hours">
-                    <i class="fa-solid fa-clock"></i>
                     <div>
                         <strong>Otevírací doba</strong><br>
                         Po: 8:00–15:30<br>

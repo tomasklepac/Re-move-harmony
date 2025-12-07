@@ -5,8 +5,8 @@ function rh_esc($value): string
     return htmlspecialchars($value ?? '', ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8');
 }
 
-$defaultTitle = 'Re-Move Harmony | Masáže, relaxační a pohybové terapie Plzeň';
-$defaultDescription = 'Re-Move Harmony - masáže, relaxační a pohybové terapie v Plzni. Pomůžeme vám vrátit tělu i mysli lehkost a rovnováhu.';
+$defaultTitle = 'Re-Move Harmony | Masáže, relaxační a pohybová terapie Plzeň';
+$defaultDescription = 'Re-Move Harmony - masáže, relaxační a pohybová terapie v Plzni. Pomůžeme vám vrátit tělu i mysli lehkost a rovnováhu.';
 
 $scheme = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? 'https' : 'http';
 $host = $_SERVER['HTTP_HOST'] ?? 'localhost';
@@ -30,7 +30,7 @@ $pageDescription = $pageDescription ?? $defaultDescription;
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="<?php echo rh_esc($pageDescription); ?>">
-<meta name="author" content="Tomáš Klepač">
+<meta name="author" content="Tomáš Klepař">
 <meta name="theme-color" content="#3D7077">
 <meta name="robots" content="index,follow">
 <link rel="canonical" href="<?php echo rh_esc($currentUrlNoQuery); ?>">
@@ -56,18 +56,13 @@ $pageDescription = $pageDescription ?? $defaultDescription;
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
 <link rel="preload" href="<?php echo rh_esc($assetPrefix); ?>assets/css/style.css" as="style">
 <link rel="preload" href="<?php echo rh_esc($assetPrefix); ?>assets/css/responsive.css" as="style" onload="this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="<?php echo rh_esc($assetPrefix); ?>assets/css/responsive.css"></noscript>
 <link rel="preload" as="image" href="<?php echo rh_esc($assetPrefix); ?>assets/img/hero/interier_1.jpeg" imagesrcset="<?php echo rh_esc($assetPrefix); ?>assets/img/hero/interier_1.jpeg">
 
 <!-- Google Fonts -->
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Libre+Baskerville:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
-
-<!-- Font Awesome (non-blocking load) -->
-<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" as="style" crossorigin onload="this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"></noscript>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 
 <!-- Styles -->
 <link rel="stylesheet" href="assets/css/style.css">

@@ -1,16 +1,17 @@
 <?php
-$pageTitle = 'Re-Move Harmony | Masáže, relaxační a pohybové terapie Plzeň';
-$pageDescription = 'Masáže, relaxační a pohybové terapie. Pomůžeme vám vrátit tělu i mysli lehkost a klid.';
+$pageTitle = 'Re-Move Harmony | Masáže, relaxační a pohybová terapie Plzeň';
+$pageDescription = 'Masáže, relaxační a pohybová terapie. Pomůžeme vám vrátit tělu i mysli lehkost a klid.';
 $ogImage = 'assets/img/hero/interier_2.jpeg';
 include 'includes/header.php';
 ?>
 
 <section class="hero">
+    <img class="hero-media" src="assets/img/hero/interier_1.jpeg" alt="" width="1600" height="1066" loading="eager" decoding="async" fetchpriority="high">
     <div class="hero-overlay"></div>
     <div class="hero-content">
         <p class="eyebrow">Plzeň • Tylova 68</p>
         <h1>Re-Move Harmony</h1>
-        <p>Masáže, relaxační a pohybové terapie. Pomůžeme vám vrátit tělu i mysli lehkost a klid.</p>
+        <p>Masáže, relaxační a pohybová terapie. Pomůžeme vám vrátit tělu i mysli lehkost a klid.</p>
         <div class="hero-actions">
             <a href="https://www.reservio.cz/b/re-move-harmony" class="btn-primary" target="_blank" rel="noopener">Rezervovat termín</a>
             <a href="contact.php" class="btn-outline">Kontakt</a>
@@ -36,7 +37,7 @@ include 'includes/header.php';
         </div>
         <div class="intro-card">
             <h3>Pro koho</h3>
-            <p>Sportovci, sedavé profese, rodiče i lidé po úrazu. Přijďte kdykoli potřebujete zvolnit a zregenerovat.</p>
+            <p>Sportovci, sedavé profese, rodiče i lidé po úrazu. Přijďte kdykoliv potřebujete zvolnit a zregenerovat.</p>
         </div>
     </div>
 </section>
@@ -48,7 +49,7 @@ include 'includes/header.php';
         <p>V Re-Move Harmony propojujeme masáže, relaxační a pohybové terapie. Ulevíme od bolesti, naučíme vás, jak se hýbat bez obav, a nastavíme postup, který dává smysl vašemu životnímu rytmu.</p>
     </div>
     <div class="image">
-        <img src="assets/img/logo/logo_clear.png" alt="Re-Move Harmony logo" loading="lazy" decoding="async">
+        <img src="assets/img/logo/logo_clear.png" alt="Re-Move Harmony logo" width="1287" height="1287" loading="lazy" decoding="async">
     </div>
 </section>
 
@@ -59,7 +60,7 @@ include 'includes/header.php';
         <p>Relaxační i sportovní masáže, baňkování a tejpy pro rychlejší regeneraci a stabilitu. Vše děláme citlivě, aby se tělo uvolnilo a mohlo se bezpečně vrátit k pohybu.</p>
     </div>
     <div class="image">
-        <img src="assets/img/services/procedura_bankovani_6_opt.jpg" alt="Masážní místnost" loading="lazy" decoding="async">
+        <img src="assets/img/services/procedura_bankovani_6_opt.jpg" alt="Masážní místnost" width="1200" height="800" loading="lazy" decoding="async">
     </div>
 </section>
 
@@ -67,10 +68,10 @@ include 'includes/header.php';
     <div class="text">
         <p class="section-label">Pohybová terapie</p>
         <h3>Praktické návody, které zvládnete doma</h3>
-        <p>Ukážeme vám jednoduché cviky a návyky, které zmenší bolest a posílí stabilitu. Soustředíme se na funkční pohyb, dech a postupné kroky, které můžete zapojit do běžného dne.</p>
+        <p>Ukážeme vám jednoduché cviky a návyky, které zmírní bolest a posílí stabilitu. Soustředíme se na funkční pohyb, dech a postupné kroky, které můžete zapojit do běžného dne.</p>
     </div>
     <div class="image">
-        <img src="assets/img/services/procedura_pohybova_terapie_opt.jpg" alt="Terapie s klientem" loading="lazy" decoding="async">
+        <img src="assets/img/services/procedura_pohybova_terapie_opt.jpg" alt="Terapie s klientem" width="1200" height="800" loading="lazy" decoding="async">
     </div>
 </section>
 
@@ -80,13 +81,13 @@ include 'includes/header.php';
         <div class="team-grid">
             <div class="team-member">
                 <a href="team.php#max">
-                    <img src="assets/img/gallery/Maxmilian_Hostalek_opt.jpg" alt="Portrét maséra Maxmiliána Hošťálka" loading="lazy" decoding="async">
+                    <img src="assets/img/gallery/Maxmilian_Hostalek_opt.jpg" alt="Portrét maséra Maxmiliána Hošťálka" width="1200" height="1600" loading="lazy" decoding="async">
                     <h3>Maxmilián Hošťálek</h3>
                 </a>
             </div>
             <div class="team-member">
                 <a href="team.php#barbora">
-                    <img src="assets/img/gallery/Barbora_Kuttanova_opt.jpg" alt="Portrét masérky Barbory Kuttanové" loading="lazy" decoding="async">
+                    <img src="assets/img/gallery/Barbora_Kuttanova_opt.jpg" alt="Portrét masérky Barbory Kuttanové" width="1200" height="1600" loading="lazy" decoding="async">
                     <h3>Barbora Kuttanová</h3>
                 </a>
             </div>
@@ -114,5 +115,3 @@ include 'includes/header.php';
 </section>
 
 <?php include 'includes/footer.php'; ?>
-
-

@@ -1,4 +1,4 @@
-﻿    </main>
+    </main>
 <footer class="footer-minimal">
     <div class="container footer-grid">
         <div class="footer-links">
