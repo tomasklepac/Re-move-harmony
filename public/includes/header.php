@@ -9,7 +9,7 @@
 <header class="navbar" role="banner">
     <div class="container nav-container">
         <a href="index.php" class="logo" aria-label="Re-Move Harmony logo">
-            <img src="assets/img/logo/logo_clear_modre_opt.jpg" alt="Re-Move Harmony Logo" loading="eager" decoding="async" fetchpriority="high">
+            <img src="assets/img/logo/logo_clear_modre.png" alt="Re-Move Harmony Logo" loading="eager" decoding="async" fetchpriority="high">
         </a>
         <nav class="nav-menu" aria-label="Hlavní navigace">
             <a href="index.php" class="<?php echo $currentPage === 'index' ? 'active' : ''; ?>">Domů</a>

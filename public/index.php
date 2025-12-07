@@ -48,7 +48,7 @@ include 'includes/header.php';
         <p>V Re-Move Harmony propojujeme masáže, relaxační a pohybové terapie. Ulevíme od bolesti, naučíme vás, jak se hýbat bez obav, a nastavíme postup, který dává smysl vašemu životnímu rytmu.</p>
     </div>
     <div class="image">
-        <img src="assets/img/logo/logo_clear_opt.jpg" alt="Re-Move Harmony logo" loading="lazy" decoding="async">
+        <img src="assets/img/logo/logo_clear.png" alt="Re-Move Harmony logo" loading="lazy" decoding="async">
     </div>
 </section>
 
