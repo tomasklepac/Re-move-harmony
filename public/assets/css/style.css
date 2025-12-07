@@ -266,7 +266,7 @@ a {
 }
 
 .intro-card p {
-    color: var(--muted);
+    color: #304247;
 }
 
 /* Section about */
@@ -1032,6 +1032,18 @@ a {
     background: rgba(255, 255, 255, 0.16);
     color: #fff;
     transform: translateY(-2px);
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
 }
 
 /* Utility */

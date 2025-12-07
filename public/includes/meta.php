@@ -58,6 +58,8 @@ $pageDescription = $pageDescription ?? $defaultDescription;
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
 <link rel="preload" href="<?php echo rh_esc($assetPrefix); ?>assets/css/style.css" as="style">
+<link rel="preload" href="<?php echo rh_esc($assetPrefix); ?>assets/css/responsive.css" as="style" onload="this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="<?php echo rh_esc($assetPrefix); ?>assets/css/responsive.css"></noscript>
 <link rel="preload" as="image" href="<?php echo rh_esc($assetPrefix); ?>assets/img/hero/interier_1.jpeg" imagesrcset="<?php echo rh_esc($assetPrefix); ?>assets/img/hero/interier_1.jpeg">
 
 <!-- Google Fonts -->
@@ -69,7 +71,7 @@ $pageDescription = $pageDescription ?? $defaultDescription;
 
 <!-- Styles -->
 <link rel="stylesheet" href="assets/css/style.css">
-<link rel="stylesheet" href="assets/css/responsive.css">
+<link rel="stylesheet" href="assets/css/responsive.css" media="(max-width: 1024px)">
 
 <script type="application/ld+json">
 {

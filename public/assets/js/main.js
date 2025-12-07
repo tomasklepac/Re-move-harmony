@@ -7,6 +7,8 @@ if (burger && navMenu) {
     burger.addEventListener('click', () => {
         navMenu.classList.toggle('active');
         burger.classList.toggle('active');
+        const expanded = burger.classList.contains('active');
+        burger.setAttribute('aria-expanded', expanded ? 'true' : 'false');
     });
 
     navMenu.querySelectorAll('a').forEach(link => {
