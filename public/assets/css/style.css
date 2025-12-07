@@ -102,6 +102,9 @@ a {
     width: 26px;
     height: 18px;
     cursor: pointer;
+    background: transparent;
+    border: none;
+    padding: 0;
 }
 
 .burger span {
