@@ -28,7 +28,7 @@ include 'includes/header.php';
         </div>
 
         <div class="reservation-photo">
-            <img src="assets/img/gallery/interier_3.jpeg" alt="Interiér Re-Move Harmony">
+            <img src="assets/img/gallery/interier_3.jpeg" alt="Interiér Re-Move Harmony" loading="lazy" decoding="async">
         </div>
     </div>
 </section>

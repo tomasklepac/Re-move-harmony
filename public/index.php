@@ -47,7 +47,7 @@ include 'includes/header.php';
         <p>V Re-Move Harmony propojujeme masáže, relaxační a pohybové terapie. Ulevíme od bolesti, naučíme vás, jak se hýbat bez obav, a nastavíme postup, který dává smysl vašemu životnímu rytmu.</p>
     </div>
     <div class="image">
-        <img src="assets/img/logo/logo_clear.png" alt="Re-Move Harmony logo">
+        <img src="assets/img/logo/logo_clear.png" alt="Re-Move Harmony logo" loading="lazy" decoding="async">
     </div>
 </section>
 
@@ -58,7 +58,7 @@ include 'includes/header.php';
         <p>Relaxační i sportovní masáže, baňkování a tejpy pro rychlejší regeneraci a stabilitu. Vše děláme citlivě, aby se tělo uvolnilo a mohlo se bezpečně vrátit k pohybu.</p>
     </div>
     <div class="image">
-        <img src="assets/img/services/procedura_bankovani_6.jpeg" alt="Masážní místnost">
+        <img src="assets/img/services/procedura_bankovani_6.jpeg" alt="Masážní místnost" loading="lazy" decoding="async">
     </div>
 </section>
 
@@ -69,7 +69,7 @@ include 'includes/header.php';
         <p>Ukážeme vám jednoduché cviky a návyky, které zmenší bolest a posílí stabilitu. Soustředíme se na funkční pohyb, dech a postupné kroky, které můžete zapojit do běžného dne.</p>
     </div>
     <div class="image">
-        <img src="assets/img/services/procedura_pohybova_terapie.jpeg" alt="Terapie s klientem">
+        <img src="assets/img/services/procedura_pohybova_terapie.jpeg" alt="Terapie s klientem" loading="lazy" decoding="async">
     </div>
 </section>
 
@@ -79,13 +79,13 @@ include 'includes/header.php';
         <div class="team-grid">
             <div class="team-member">
                 <a href="team.php#max">
-                    <img src="assets/img/gallery/Maxmilian_Hostalek.jpeg" alt="Maxmilián Hošťálek">
+                    <img src="assets/img/gallery/Maxmilian_Hostalek.jpeg" alt="Maxmilián Hošťálek" loading="lazy" decoding="async">
                     <h3>Maxmilián Hošťálek</h3>
                 </a>
             </div>
             <div class="team-member">
                 <a href="team.php#barbora">
-                    <img src="assets/img/gallery/Barbora_Kuttanova.jpeg" alt="Barbora Kuttanová">
+                    <img src="assets/img/gallery/Barbora_Kuttanova.jpeg" alt="Barbora Kuttanová" loading="lazy" decoding="async">
                     <h3>Barbora Kuttanová</h3>
                 </a>
             </div>

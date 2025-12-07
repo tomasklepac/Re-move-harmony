@@ -49,23 +49,23 @@ $pageDescription = $pageDescription ?? $defaultDescription;
 <meta name="twitter:description" content="<?php echo rh_esc($pageDescription); ?>">
 <meta name="twitter:image" content="<?php echo rh_esc($ogImage); ?>">
 
-<link rel="icon" href="<?php echo rh_esc($assetPrefix); ?>favicon.ico" sizes="any">
-<link rel="icon" type="image/png" sizes="16x16" href="<?php echo rh_esc($assetPrefix); ?>assets/img/logo/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="24x24" href="<?php echo rh_esc($assetPrefix); ?>assets/img/logo/favicon-24x24.png">
 <link rel="icon" type="image/png" sizes="32x32" href="<?php echo rh_esc($assetPrefix); ?>assets/img/logo/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="48x48" href="<?php echo rh_esc($assetPrefix); ?>assets/img/logo/favicon-48x48.png">
-<link rel="icon" type="image/png" sizes="96x96" href="<?php echo rh_esc($assetPrefix); ?>assets/img/logo/favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="128x128" href="<?php echo rh_esc($assetPrefix); ?>assets/img/logo/favicon-128x128.png">
-<link rel="icon" type="image/png" sizes="256x256" href="<?php echo rh_esc($assetPrefix); ?>assets/img/logo/favicon-256x256.png">
 <link rel="apple-touch-icon" sizes="180x180" href="<?php echo rh_esc($assetPrefix); ?>assets/img/logo/apple-touch-icon.png">
 <link rel="manifest" href="<?php echo rh_esc($assetPrefix); ?>site.webmanifest">
 <link rel="shortcut icon" href="<?php echo rh_esc($assetPrefix); ?>favicon.ico">
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+<link rel="preload" href="<?php echo rh_esc($assetPrefix); ?>assets/css/style.css" as="style">
+<link rel="preload" as="image" href="<?php echo rh_esc($assetPrefix); ?>assets/img/hero/interier_1.jpeg" imagesrcset="<?php echo rh_esc($assetPrefix); ?>assets/img/hero/interier_1.jpeg">
+
 <!-- Google Fonts -->
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Libre+Baskerville:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
 
-<!-- Font Awesome -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+<!-- Font Awesome (non-blocking load) -->
+<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" as="style" crossorigin onload="this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"></noscript>
 
 <!-- Styles -->
 <link rel="stylesheet" href="assets/css/style.css">
