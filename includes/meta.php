@@ -8,9 +8,7 @@ function rh_esc($value): string
 $defaultTitle = 'Re-Move Harmony | Masáže, relaxační a pohybové terapie Plzeň';
 $defaultDescription = 'Re-Move Harmony - masáže, relaxační a pohybové terapie v Plzni. Pomůžeme vám vrátit tělu i mysli lehkost a rovnováhu.';
 
-$scheme = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? 'https' : 'http';
-$host = $_SERVER['HTTP_HOST'] ?? 'localhost';
-$baseUrl = $baseUrl ?? ($scheme . '://' . $host);
+$baseUrl = 'https://re-moveharmony.cz';
 $scriptDir = rtrim(dirname($_SERVER['SCRIPT_NAME'] ?? ''), '/\\');
 $pathPrefix = ($scriptDir === '' || $scriptDir === '/') ? '' : ltrim($scriptDir, '/');
 $assetPrefix = $pathPrefix === '' ? '' : $pathPrefix . '/';
