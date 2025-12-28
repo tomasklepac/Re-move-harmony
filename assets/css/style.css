@@ -35,6 +35,14 @@ img {
 
 a {
     color: inherit;
+    text-decoration-skip-ink: auto;
+}
+
+/* Accessibility: Visible focus state matching brand colors */
+:focus-visible {
+    outline: 2px solid var(--primary);
+    outline-offset: 4px;
+    border-radius: 4px;
 }
 
 .container {
@@ -631,6 +639,7 @@ a {
 .contact-btn i {
     font-size: 1.1rem;
 }
+
 .contact-btn svg {
     width: 18px;
     height: 18px;
@@ -1066,5 +1075,10 @@ a {
 }
 
 /* Utility */
-.mt-2 { margin-top: 8px; }
-.mt-3 { margin-top: 12px; }
+.mt-2 {
+    margin-top: 8px;
+}
+
+.mt-3 {
+    margin-top: 12px;
+}
