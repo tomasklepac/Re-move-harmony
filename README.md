@@ -1,36 +1,91 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Re-Move Harmony
 
-## Getting Started
+Modern, static website for a massage and therapy studio in Plzeň, built with **Next.js 16** and **TypeScript**.
 
-First, run the development server:
+The website presents services, team members, photo gallery, and allows clients to book appointments via Reservio. It is designed to be fully static for easy deployment on varied hosting platforms (currently deployed on Hostinger).
+
+![Re-Move Harmony Preview](public/assets/img/hero/interier_1.jpeg)
+
+## 🚀 Key Features
+
+*   **Modern Tech Stack**: Built on Next.js 16 (App Router) & React 19.
+*   **Static Export**: Configured for `output: 'export'` to generate pure HTML/CSS/JS for any static hosting.
+*   **Fully Responsive**: Custom CSS ensuring perfect display on mobile, tablet, and desktop.
+*   **SEO Optimized**: Uses Next.js Metadata API for dynamic titles, descriptions, and Open Graph tags.
+*   **Interactive Components**:
+    *   **Custom Lightbox Gallery**: Keyboard navigation and touch support.
+    *   **Services Filter**: Instant client-side filtering of procedures.
+    *   **Smart Navbar**: Hides on homepage until scroll for immersive hero experience.
+*   **Performance**: Optimized images and code splitting.
+
+## 🛠️ Tech Stack
+
+*   **Framework**: [Next.js 16](https://nextjs.org/)
+*   **Language**: [TypeScript](https://www.typescriptlang.org/)
+*   **Styling**: Custom CSS (Modules & Global styles), no heavy UI frameworks.
+*   **Icons**: SVG Icons
+*   **Deployment**: Static HTML Export
+
+## 📂 Project Structure
+
+```bash
+re-move-harmony/
+├── app/
+│   ├── layout.tsx          # Root layout with metadata and fonts
+│   ├── page.tsx            # Homepage
+│   ├── sluzby/             # Services page
+│   ├── tym/                # Team page
+│   ├── fotogalerie/        # Gallery page
+│   ├── kontakt/            # Contact page
+│   ├── rezervace/          # Reservation page
+│   └── styles/             # Global and component styles
+├── components/
+│   ├── Header.tsx          # Navigation bar
+│   ├── Footer.tsx          # Site footer
+│   ├── Gallery.tsx         # Interactive photo gallery
+│   ├── ServicesFilter.tsx  # Filtering logic for services
+│   └── TrustBadge.tsx      # Social proof component
+├── public/
+│   └── assets/             # Static images and fonts
+└── next.config.ts          # Static export configuration
+```
+
+## 🏁 Getting Started
+
+First, install the dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📦 Building for Production
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+To create the static export for deployment:
 
-## Learn More
+```bash
+npm run build
+```
 
-To learn more about Next.js, take a look at the following resources:
+This command will generate an **`out/`** directory containing the static HTML/CSS/JS files.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🚀 Deployment (Hostinger)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This project is configured for **Static Site Generation (SSG)**.
 
-## Deploy on Vercel
+1.  Run `npm run build`.
+2.  Locate the generated `out/` folder.
+3.  Upload the **contents** of the `out/` folder to the `public_html` directory of your hosting provider via FTP or File Manager.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+_Note: No Node.js server is required for hosting._
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📄 License
+
+Private project for Re-Move Harmony.
