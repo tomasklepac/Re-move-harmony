@@ -41,7 +41,7 @@ export default function Home() {
         <div className="hero-overlay"></div>
         <div className="hero-content">
           <p className="eyebrow">Plzeň · Tylova 68</p>
-          <h1>Re-Move Harmony</h1>
+          <h1>Masáže a terapie Plzeň<br /><span className="text-white/90 text-4xl block mt-2">Re-Move Harmony</span></h1>
           <p>Masáže, relaxační a pohybové terapie. Pomůžeme vám vrátit tělu i mysli lehkost a klid.</p>
           <div className="hero-actions">
             <a href="https://www.reservio.cz/b/re-move-harmony" className="btn-primary" target="_blank" rel="noopener">
